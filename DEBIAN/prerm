@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -e /lib/firmware/updates/ath10k/QCA6174/hw3.0/firmware-6.bin ]; then
+    rm /lib/firmware/updates/ath10k/QCA6174/hw3.0/firmware-6.bin
+fi
+
+if [ -e /lib/firmware/updates/ath10k/QCA6174/hw3.0/board-2.bin ]; then
+    rm /lib/firmware/updates/ath10k/QCA6174/hw3.0/board-2.bin
+fi
+
+if [ -e /lib/firmware/updates/ath10k/QCA6174/hw3.0/notice.txt_WLAN.RM.4.4.1.c3-00230 ]; then
+    rm /lib/firmware/updates/ath10k/QCA6174/hw3.0/notice.txt_WLAN.RM.4.4.1.c3-00230
+fi
